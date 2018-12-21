@@ -4,7 +4,8 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "tsc -b packages/core packages/cli",
-    "clean": "rimraf packages/**/lib"
+    "clean": "rimraf packages/**/lib",
+    "start": "node packages/cli/lib/main.js"
   },
   "devDependencies": {
     "@types/node": "^10.12.18",
