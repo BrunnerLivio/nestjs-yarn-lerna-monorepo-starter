@@ -1,0 +1,12 @@
+{
+    "version": "1.8.1",
+    "packages": [
+        "packages/*"
+    ],
+    "npmClient": "yarn",
+    "publishConfig": {
+        "access": "public"
+    },
+    "useWorkspaces": true,
+    "lerna": "2.9.0"
+}

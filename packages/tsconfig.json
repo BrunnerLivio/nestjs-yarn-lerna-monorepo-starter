@@ -1,0 +1,15 @@
+{
+    "files": [],
+    "references": [
+        {
+            "path": "cli"
+        },
+        {
+            "path": "core"
+        },
+        {
+            "path": "common"
+        }
+    ],
+    "exclude": []
+}

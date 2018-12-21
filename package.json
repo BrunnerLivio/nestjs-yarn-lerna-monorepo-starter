@@ -1,0 +1,23 @@
+{
+  "name": "monoapp",
+  "version": "1.0.0",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "tsc -b packages/core packages/cli",
+    "clean": "rimraf packages/**/lib"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "lerna": "^3.8.0",
+    "rimraf": "^2.6.2",
+    "typescript": "~3.2.2"
+  },
+  "main": "main.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+      "packages": [
+          "packages/*"
+      ]
+  }
+}
