@@ -3,21 +3,28 @@
   "version": "1.0.0",
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "build": "tsc -b packages/core packages/cli",
-    "clean": "rimraf packages/**/lib"
+    "build": "tsc -b packages/core packages/cli packages/api",
+    "clean": "rimraf packages/**/lib",
+    "start": "node packages/cli/lib/cli.js"
   },
   "devDependencies": {
     "@types/node": "^10.12.18",
     "lerna": "^3.8.0",
+    "prettier": "^1.15.3",
     "rimraf": "^2.6.2",
+    "tslint": "^5.12.0",
     "typescript": "~3.2.2"
   },
   "main": "main.js",
   "license": "MIT",
   "private": true,
   "workspaces": {
-      "packages": [
-          "packages/*"
-      ]
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/@nestjs",
+      "**/@nestjs/**"
+    ]
   }
 }
