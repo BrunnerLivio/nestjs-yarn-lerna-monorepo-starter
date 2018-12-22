@@ -4,11 +4,14 @@
     "main": "lib/index.js",
     "license": "MIT",
     "dependencies": {
+        "@monoapp/common": "1.0.0",
+        "@monoapp/core": "1.0.0",
         "@nestjs/common": "^5.5.0",
         "@nestjs/core": "^5.5.0",
-        "@monoapp/core": "1.0.0",
-        "@monoapp/common": "1.0.0",
         "reflect-metadata": "^0.1.12",
         "rxjs": "^6.3.3"
+    },
+    "devDependencies": {
+        "@nestjs/testing": "^5.5.0"
     }
 }
