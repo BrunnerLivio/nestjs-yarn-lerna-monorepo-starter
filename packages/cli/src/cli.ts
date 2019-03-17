@@ -8,5 +8,4 @@ program
   .option('-p, --port <n>', 'server port', parseInt)
   .parse(process.argv);
 
-console.log(`Listening on port ${program.port}`);
-startApi(program.port);
+startApi(program.port).then(port => console.log(`Listening on port ${port}`));

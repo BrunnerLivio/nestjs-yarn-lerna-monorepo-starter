@@ -1,13 +1,10 @@
-
 {
-    "extends": "../tsconfig.settings.json",
-    "compilerOptions": {
-      "rootDir": "src",
-      "outDir": "lib",
-      "composite": true
-    },
-    "references": [
-      { "path": "../core" }
-    ],
-    "exclude": ["lib"]
+  "extends": "../tsconfig.settings.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "lib",
+    "composite": true
+  },
+  "references": [{ "path": "../core" }],
+  "exclude": ["lib", "test"]
 }

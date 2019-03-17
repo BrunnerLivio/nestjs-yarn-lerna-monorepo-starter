@@ -1,17 +1,18 @@
 {
     "name": "@monoapp/api",
     "version": "1.0.0",
-    "main": "lib/index.js",
     "license": "MIT",
+    "main": "lib/index.js",
     "dependencies": {
         "@monoapp/common": "1.0.0",
         "@monoapp/core": "1.0.0",
-        "@nestjs/common": "^5.5.0",
-        "@nestjs/core": "^5.5.0",
-        "reflect-metadata": "^0.1.12",
-        "rxjs": "^6.3.3"
+        "@nestjs/common": "^6.0.0",
+        "@nestjs/core": "^6.0.0",
+        "@nestjs/platform-express": "^6.0.0",
+        "reflect-metadata": "^0.1.13",
+        "rxjs": "^6.4.0"
     },
     "devDependencies": {
-        "@nestjs/testing": "^5.5.0"
+        "@nestjs/testing": "^6.0.0"
     }
 }

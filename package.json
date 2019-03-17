@@ -1,16 +1,28 @@
 {
   "name": "monoapp",
   "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "main.js",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/@nestjs",
+      "**/@nestjs/**"
+    ]
+  },
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "tsc -b packages/core packages/cli packages/api",
     "clean": "rimraf packages/**/lib",
     "start": "node packages/cli/lib/cli.js",
     "test": "jest --config ./jest.json",
-    "test:watch": "jest --config ./jest.json --watch",
     "test:cov": "jest --config ./jest.json --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --config ./jest.json --runInBand",
-    "test:e2e": "jest --config ./jest-e2e.json"
+    "test:e2e": "jest --config ./jest-e2e.json",
+    "test:watch": "jest --config ./jest.json --watch"
   },
   "devDependencies": {
     "@nestjs/testing": "^5.5.0",
@@ -25,17 +37,5 @@
     "ts-jest": "^23.10.5",
     "tslint": "^5.12.0",
     "typescript": "~3.2.2"
-  },
-  "main": "main.js",
-  "license": "MIT",
-  "private": true,
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ],
-    "nohoist": [
-      "**/@nestjs",
-      "**/@nestjs/**"
-    ]
   }
 }

@@ -1,8 +1,8 @@
 {
   "name": "@monoapp/common",
   "version": "1.0.0",
-  "main": "lib/index.js",
   "license": "MIT",
+  "main": "lib/index.js",
   "bin": {
     "monoapp": "./lib/cli.js"
   },
