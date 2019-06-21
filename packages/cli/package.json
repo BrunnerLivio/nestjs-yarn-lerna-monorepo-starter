@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "@monoapp/api": "1.0.0",
-    "commander": "^2.19.0"
+    "commander": "^2.20.0"
   }
 }
