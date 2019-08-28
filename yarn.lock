@@ -1041,14 +1041,14 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@nestjs/common@^6.3.1":
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-6.5.2.tgz#a864a62f859a7662f658febc0e9a115eee00739e"
-  integrity sha512-vkB6JLPPckjS35usLMV3Q6vljkgzhN3jgQ+U1VY6cKriyjnkIcUKo37tNQSPYkaAGe1pOLK4IkmwMTSyhNieyg==
+"@nestjs/common@^6.6.2":
+  version "6.6.2"
+  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-6.6.2.tgz#5a1aacd3eb1e2b8e38740f3c9a2233fc19557893"
+  integrity sha512-d7/OLI/f04LX0wgFPGuEO2ApNr4Nosn7r7JFaKQFAH1X1j0xOdXwnknUmA9AP06Nta72EAAWWI2a+hOIQBp+NQ==
   dependencies:
     axios "0.19.0"
     cli-color "1.4.0"
-    uuid "3.3.2"
+    uuid "3.3.3"
 
 "@nestjs/core@^6.3.1":
   version "6.5.2"
@@ -6909,6 +6909,11 @@ uuid@3.3.2, uuid@^3.0.1, uuid@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
   integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
+
+uuid@3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.3.tgz#4568f0216e78760ee1dbf3a4d2cf53e224112866"
+  integrity sha512-pW0No1RGHgzlpHJO1nsVrHKpOEIxkGg1xB+v0ZmdNH5OAeAwzAVrCnI2/6Mtx+Uys6iaylxa+D3g4j63IKKjSQ==
 
 validate-npm-package-license@^3.0.1, validate-npm-package-license@^3.0.3:
   version "3.0.4"
