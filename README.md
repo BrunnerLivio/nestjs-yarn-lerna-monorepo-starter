@@ -1,8 +1,5 @@
 # NestJS mono-repo starter
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/BrunnerLivio/nestjs-monorepo-starter.svg)](https://greenkeeper.io/)
-
-
 [Nest](https://github.com/nestjs/nest) framework TypeScript monorepo starter repository.
 
 ## Architecture
