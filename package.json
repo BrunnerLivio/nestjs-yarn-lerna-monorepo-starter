@@ -35,7 +35,7 @@
     "prettier": "1.18.2",
     "rimraf": "3.0.2",
     "supertest": "4.0.2",
-    "ts-jest": "24.0.2",
+    "ts-jest": "25.5.0",
     "tslint": "6.1.2",
     "typescript": "3.8.3"
   }
